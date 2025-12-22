@@ -1,5 +1,5 @@
 {
-  "name": "@tu-usuario/finanzapp-contracts",
+  "name": "fa-contracts",
   "version": "1.0.0",
   "description": "TypeScript contracts and types for FinanzApp domain entities",
   "main": "dist/index.js",
