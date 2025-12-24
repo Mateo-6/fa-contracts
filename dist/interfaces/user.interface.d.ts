@@ -8,6 +8,8 @@ export interface User {
     password?: string;
     phone: string;
     email: string;
+    /** Array of Expo Push Tokens associated with the user's devices */
+    expoPushTokens?: string[];
     createdAt?: Date;
     updatedAt?: Date;
 }

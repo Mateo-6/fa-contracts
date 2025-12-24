@@ -24,7 +24,7 @@ import { PaymentMethodType, CategoryType, TransactionType, RecurringFrequency } 
 ## Exported Entities
 
 ### Interfaces
-- `User` - User entity
+- `User` - User entity (includes support for Expo Push Tokens for push notifications)
 - `Category` - Category entity
 - `CategorySnapshot` - Category snapshot embedded in transactions
 - `PaymentMethod` - Payment method entity
