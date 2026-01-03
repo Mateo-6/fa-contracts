@@ -7,3 +7,4 @@ export { BankAccountDetails } from './bank-account-details.interface';
 export { CashDetails } from './cash-details.interface';
 export { Transaction } from './transaction.interface';
 export { RecurringExpense } from './recurring-expense.interface';
+export { Notification } from './notification.interface';

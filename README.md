@@ -33,6 +33,7 @@ import { PaymentMethodType, CategoryType, TransactionType, RecurringFrequency } 
 - `CashDetails` - Cash details structure
 - `Transaction` - Transaction entity
 - `RecurringExpense` - Recurring expense entity
+- `Notification` - Notification entity for persistent inbox notifications
 
 ### Enums
 - `PaymentMethodType` - Payment method types (CREDIT_CARD, BANK_ACCOUNT, CASH)
@@ -40,6 +41,7 @@ import { PaymentMethodType, CategoryType, TransactionType, RecurringFrequency } 
 - `CategoryType` - Category types (INCOME, EXPENSE)
 - `TransactionType` - Transaction types (INCOME, EXPENSE)
 - `RecurringFrequency` - Recurring frequencies (WEEKLY, MONTHLY, YEARLY)
+- `NotificationPriority` - Notification priority levels (LOW, MEDIUM, HIGH, URGENT)
 
 ### Types
 - `PaymentMethodDetails` - Union type for payment method details
