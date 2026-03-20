@@ -5,4 +5,5 @@ export { TransactionType } from './transaction-type.enum';
 export { TransactionSubtype } from './transaction-subtype.enum';
 export { RecurringFrequency } from './recurring-frequency.enum';
 export { NotificationPriority } from './notification-priority.enum';
+export { BudgetPeriod } from './budget-period.enum';
 //# sourceMappingURL=index.d.ts.map

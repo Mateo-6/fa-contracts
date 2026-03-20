@@ -9,4 +9,5 @@ export { Transaction } from './transaction.interface';
 export { CardPaymentDetails } from './card-payment-details.interface';
 export { RecurringExpense } from './recurring-expense.interface';
 export { Notification } from './notification.interface';
+export { Budget } from './budget.interface';
 //# sourceMappingURL=index.d.ts.map
