@@ -6,5 +6,6 @@ export interface BankAccountDetails {
     bank_name: string;
     account_number: string;
     account_type: BankAccountType;
+    current_balance: number;
 }
 //# sourceMappingURL=bank-account-details.interface.d.ts.map
