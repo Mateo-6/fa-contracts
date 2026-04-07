@@ -8,5 +8,6 @@ var TransactionType;
 (function (TransactionType) {
     TransactionType["INCOME"] = "INCOME";
     TransactionType["EXPENSE"] = "EXPENSE";
+    TransactionType["TRANSFER"] = "TRANSFER";
 })(TransactionType || (exports.TransactionType = TransactionType = {}));
 //# sourceMappingURL=transaction-type.enum.js.map

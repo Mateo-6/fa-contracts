@@ -8,5 +8,6 @@ var CategoryType;
 (function (CategoryType) {
     CategoryType["INCOME"] = "income";
     CategoryType["EXPENSE"] = "expense";
+    CategoryType["TRANSFER"] = "transfer";
 })(CategoryType || (exports.CategoryType = CategoryType = {}));
 //# sourceMappingURL=category-type.enum.js.map

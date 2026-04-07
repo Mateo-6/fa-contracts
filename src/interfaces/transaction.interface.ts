@@ -21,6 +21,8 @@ export interface Transaction {
   recurringExpenseId?: string; // Optional reference to RecurringExpense
   /** Present only when subtype === CARD_PAYMENT. Contains the target card and period info. */
   cardPaymentDetails?: CardPaymentDetails | null;
+  sourcePaymentMethodId?: string;
+  destinationPaymentMethodId?: string;
   createdAt?: Date;
   updatedAt?: Date;
 }

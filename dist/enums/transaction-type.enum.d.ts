@@ -3,6 +3,7 @@
  */
 export declare enum TransactionType {
     INCOME = "INCOME",
-    EXPENSE = "EXPENSE"
+    EXPENSE = "EXPENSE",
+    TRANSFER = "TRANSFER"
 }
 //# sourceMappingURL=transaction-type.enum.d.ts.map
