@@ -8,4 +8,5 @@ export interface BankAccountDetails {
   account_number: string; // Last 4 digits (required)
   account_type: BankAccountType;
   current_balance: number; // Tracked balance, updated on every transaction
+  is_gmf_exempt?: boolean;
 }

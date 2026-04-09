@@ -7,5 +7,6 @@ export interface BankAccountDetails {
     account_number: string;
     account_type: BankAccountType;
     current_balance: number;
+    is_gmf_exempt?: boolean;
 }
 //# sourceMappingURL=bank-account-details.interface.d.ts.map
