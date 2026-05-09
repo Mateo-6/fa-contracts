@@ -12,5 +12,6 @@ export interface PaymentMethod {
     details: PaymentMethodDetails;
     createdAt?: Date;
     updatedAt?: Date;
+    deletedAt?: Date | null;
 }
 //# sourceMappingURL=payment-method.interface.d.ts.map

@@ -13,4 +13,5 @@ export interface PaymentMethod {
   details: PaymentMethodDetails;
   createdAt?: Date;
   updatedAt?: Date;
+  deletedAt?: Date | null;
 }

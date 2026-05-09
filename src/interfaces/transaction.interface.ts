@@ -23,6 +23,9 @@ export interface Transaction {
   cardPaymentDetails?: CardPaymentDetails | null;
   sourcePaymentMethodId?: string;
   destinationPaymentMethodId?: string;
+  /** Amount applied to budget calculations. null = use full amount; 0 = excluded from all budgets. */
+  budgetAmount?: number | null;
   createdAt?: Date;
   updatedAt?: Date;
+  deletedAt?: Date | null;
 }

@@ -11,4 +11,5 @@ export interface Category {
   userId: string;
   createdAt?: Date;
   updatedAt?: Date;
+  deletedAt?: Date | null;
 }
