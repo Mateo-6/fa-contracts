@@ -7,6 +7,8 @@ export interface Category {
     name: string;
     description?: string | null;
     type: CategoryType;
+    color?: string | null;
+    icon?: string | null;
     userId: string;
     createdAt?: Date;
     updatedAt?: Date;
