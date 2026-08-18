@@ -116,6 +116,31 @@ This builds the package and writes `fa-contracts-<version>.tgz` into `../api/ven
 
 > **Note:** `npm version` requires a clean git working tree. Commit or stash pending changes before running a release script.
 
+## Updating a consumer (e.g. the API repo)
+
+After publishing a new version, consumers must pull it:
+
+1. **Check the version constraint** in the consumer's `package.json`:
+
+   - For a **patch** or **minor** release, an existing caret range (e.g. `^1.2.0`) already allows the new version — no edit needed.
+   - For a **major** release, bump the constraint manually: `"@mateo-6/fa-contracts": "^2.0.0"`.
+
+2. **Regenerate the lockfile** so the new version is resolved from GitHub Packages:
+
+   ```bash
+   NPM_TOKEN=your-token pnpm install
+   ```
+
+3. **Verify** the build:
+
+   ```bash
+   pnpm run build
+   ```
+
+4. **Commit and push** the updated `package.json` and lockfile.
+
+5. **Redeploy** the consumer on its hosting platform (e.g. Railway).
+
 ## License
 
 ISC
